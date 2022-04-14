@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+	<test name="HEAPS-basic">
+		<classes>
+			<class name="com.intel.pmem.pmul.PMULTestConfig" />
+			<class name="com.intel.pmem.pmul.AllocationTests" />
+			<class name="com.intel.pmem.pmul.PersistentHeapTests" />
+			<class name="com.intel.pmem.pmul.LLVolatileHeapTests" />
+			<class name="com.intel.pmem.pmul.HLVolatileHeapTests" />
+			<class name="com.intel.pmem.pmul.DurableHeapTests" />
+			<class name="com.intel.pmem.pmul.TransactionalHeapTests" />
+			<class name="com.intel.pmem.pmul.VolatileAccessorTests" />
+			<class name="com.intel.pmem.pmul.DurableAccessorTests" />
+			<class name="com.intel.pmem.pmul.TransactionalAccessorTests" />
+			<class name="com.intel.pmem.pmul.TransactionTests" />
+		</classes>
+	</test>
+</suite>
+
