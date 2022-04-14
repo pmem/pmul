@@ -17,7 +17,7 @@ The following are the prerequisites for building this Java library:
 1. Linux operating system
 2. Persistent Memory Development Kit (PMDK) v1.11 or newer
 3. Memkind v1.10
-4. Java 19 early-access build 13 https://download.java.net/java/early_access/jdk19/13/GPL/openjdk-19-ea+13_linux-x64_bin.tar.gz
+4. Java 18
 5. Build tools - `g++` compiler, `CMake` and `Maven`
 
 ### PREREQUISITES TO RUN ###
