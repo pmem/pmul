@@ -1,3 +1,9 @@
+# PROJECT NOT UNDER ACTIVE MANAGEMENT #  
+This project will no longer be maintained by Intel.  
+This project has been identified as having known security escapes.  
+Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
+Intel no longer accepts patches to this project.  
+  
 # Persistent Memory Utility Libraries
 OpenJDK now supports direct access to off-heap memory via the `jdk.incubator.foreign` package. While this package offers basic support for programming with persistent memory,
 PMUL implements additional features useful for programming with persistent memory. 
